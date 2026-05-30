@@ -4,9 +4,9 @@
   "description": "Webhook delivery service",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",
-    "start": "ts-node src/server.ts",
-    "dev": "ts-node src/server.ts",
+    "build": "node init && tsc",
+    "start": "node init && ts-node src/server.ts",
+    "dev": "node init && ts-node src/server.ts",
     "test": "ts-node test/run.ts"
   },
   "keywords": [],

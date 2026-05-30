@@ -3,3 +3,8 @@ dist/
 *.db
 *.db-wal
 *.db-shm
+graphify-out/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

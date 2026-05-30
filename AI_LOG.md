@@ -4,7 +4,7 @@
 
 **What I asked:** Generate the project structure for a webhook delivery service — TypeScript, Express, SQLite, with a worker loop for deliveries.
 
-**What came back:** A full scaffold with all modules in one pass: db, subscriptions, events, signing, worker, API routes, dashboard, and tests.
+**What came back:** A full scaffold with all modules: db, subscriptions, events, signing, worker, API routes, dashboard, and tests.
 
 **What I kept/modified:** Kept the overall module layout (it matched what I'd have done). Modified the TypeScript config significantly — the AI generated a TS6 config with `verbatimModuleSyntax` enabled, which broke all imports under CommonJS. I simplified to a minimal tsconfig. Also had to fix Express v5 type incompatibilities (`req.params` returns `string | string[]` in v5), which the AI didn't account for.
 
